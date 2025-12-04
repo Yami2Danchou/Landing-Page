@@ -1,2 +1,2 @@
 # Landing-Page
-Anicett Jeff Takayama FreshSense Landing page
+IT 103 Module 1 FA2 Online Course Landing Page by Anicett Takayama
