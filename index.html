@@ -3,37 +3,129 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FreshSense – Smarter Mushroom Farming</title>
   <link rel="stylesheet" href="style.css">
-  <title>My Landing Page</title>
 </head>
 <body>
-  <header class="hero">
-    <h1>Welcome to My Product</h1>
-    <p>A short tagline that captures attention.</p>
-    <button class="cta">Get Started</button>
-  </header>
 
-  <section class="features">
-    <div class="feature-card">Feature 1</div>
-    <div class="feature-card">Feature 2</div>
-    <div class="feature-card">Feature 3</div>
-  </section>
+<div class="floating-mushrooms">
+  <div class="mushroom mushroom1"></div>
+  <div class="mushroom mushroom2"></div>
+  <div class="mushroom mushroom3"></div>
+</div>
 
-  <section class="visual">
-    <img src="path-to-image.jpg" alt="Product Preview">
-  </section>
+<header class="hero fade-in" id="hero">
+  <h1>FreshSense</h1>
+  <p>The new way to protect your mushroom farm using the power of smell.</p>
+  <p>Protect your crops, save money, and grow smarter 24/7 monitoring made simple.</p>
+  <button class="cta" id="heroCTA">Learn More</button>
+</header>
 
-  <section class="info">
-    <h2>Why Choose Us?</h2>
-    <p>Some information about benefits or details…</p>
-  </section>
+<section class="features fade-in" id="features">
+  <div class="feature-card">
+    <h3>Early Detection</h3>
+    <p>Detect mold, bacteria, and contamination before it becomes visible.</p>
+  </div>
+  <div class="feature-card">
+    <h3>Real-Time Alerts</h3>
+    <p>Receive instant notifications when conditions change.</p>
+  </div>
+  <div class="feature-card">
+    <h3>Smart & Simple</h3>
+    <p>Place it, turn it on, and let FreshSense do the work.</p>
+  </div>
+  <div class="feature-card">
+    <h3>Universal Compatibility</h3>
+    <p>Works with all major mushroom species and farm sizes.</p>
+  </div>
+</section>
 
-  <section class="cta-final">
-    <button class="cta">Sign Up Now</button>
-  </section>
+<section class="visual fade-in">
+  <div class="visual-frame">
+    <img src="collage.png" alt="FreshSense device monitoring a mushroom farm">
+  </div>
+</section>
 
-  <footer>
-    <p>© 2025 My Company. All rights reserved.</p>
-  </footer>
+<section class="info fade-in">
+  <h2>Why FreshSense?</h2>
+  <p>Mushroom farming is delicate small changes can ruin your harvest.</p>
+  <p>FreshSense detects warning signs early, giving you time to act.</p>
+  <ul>
+    <li>Prevent up to 70% crop loss.</li>
+    <li>Save money by avoiding contamination.</li>
+    <li>Reduce stress with 24/7 monitoring.</li>
+    <li>Improve mushroom quality.</li>
+  </ul>
+  <p>FreshSense works like a “nose that never sleeps.”</p>
+</section>
+
+<section id="purchase" class="purchase-section fade-in">
+  <h2>Purchase the Fresh Sensor</h2>
+  <p>Your 24/7 contamination detection tool.</p>
+  <button class="cta" id="buySensorBtn">Buy Fresh Sensor</button>
+  <p>Affordable, low-maintenance, and easy to use.</p>
+</section>
+
+<section class="steps fade-in">
+  <h2>How to Install the FreshSense App</h2>
+  <div class="steps-wrapper">
+    <div class="steps-image">
+      <img src="Freshapp.png" alt="FreshSense App Preview">
+    </div>
+
+    <div class="steps-text">
+      <div class="step-box">
+        <h3>Step 1: Download the App</h3>
+        <p>Install it from Google Play or App Store.</p>
+      </div>
+
+      <div class="step-box">
+        <h3>Step 2: Pair Your Sensor</h3>
+        <p>Connect via Bluetooth or WiFi.</p>
+      </div>
+
+      <div class="step-box">
+        <h3>Step 3: Start Monitoring</h3>
+        <p>Receive alerts and protect your mushrooms.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-final fade-in" id="ctaFinal">
+  <h2>Grow Smarter with FreshSense</h2>
+  <p>Protect your mushrooms before damage occurs.</p>
+  <button class="cta" id="getStartedBtn">Get Started Today</button>
+  <p>Perfect for small to large farms.</p>
+</section>
+
+
+
+<footer class="footer">
+  <div class="footer-links">
+    <a href="#contact">Contact Us</a>
+    <a href="#privacy">Privacy Policy</a>
+  </div>
+  <p>© 2025 FreshSense. All rights reserved.</p>
+</footer>
+
+<div class="chat-button" id="chatBtn">💬</div>
+<div class="dark-mode-button" id="darkModeBtn">🌓</div>
+
+<div class="chatbox" id="chatBox">
+  <div class="chatbox-header">
+    FreshSense Support
+    <span class="chatbox-close" id="closeChat">×</span>
+  </div>
+  <div class="chatbox-body" id="chatMessages">
+    👋 Hi! How can we help you today?
+  </div>
+  <div class="chatbox-input">
+    <input type="text" id="chatInput" placeholder="Type a message...">
+    <button id="sendBtn">Send</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
